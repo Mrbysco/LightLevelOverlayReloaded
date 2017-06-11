@@ -1,5 +1,7 @@
 package com.mmyzd.llor;
 
+import org.lwjgl.input.Keyboard;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.settings.KeyBinding;
@@ -14,8 +16,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent;
-
-import org.lwjgl.input.Keyboard;
 
 @Mod(modid = LightLevelOverlayReloaded.MODID, useMetadata = true, clientSideOnly = true, guiFactory = "com.mmyzd.llor.GuiFactory")
 public class LightLevelOverlayReloaded {
