@@ -22,23 +22,19 @@ public class GuiFactory implements IModGuiFactory {
 		return null;
 	}
 
-    @Override
-    public RuntimeOptionGuiHandler getHandlerFor(RuntimeOptionCategoryElement element) {
-        return null;
-    }
+	@Override
+	public RuntimeOptionGuiHandler getHandlerFor(RuntimeOptionCategoryElement element) {
+		return null;
+	}
 
 	@Override
 	public boolean hasConfigGui() {
-		// TODO Auto-generated method stub
 		return false;
-		//return true;
 	}
 
 	@Override
 	public GuiScreen createConfigGui(GuiScreen parentScreen) {
-		// TODO Auto-generated method stub
 		return null;
-		//return new GuiModConfig(parentScreen);
 	}
 
 }
